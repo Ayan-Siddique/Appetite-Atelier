@@ -1,4 +1,4 @@
-import Booking from "../models/Booking.js";
+import Booking from "../models/booking.js";
 import { sendWhatsAppMessage } from "../services/whatsapp.service.js";
 
 export const createBooking = async (req, res) => {
