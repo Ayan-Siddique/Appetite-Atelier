@@ -44,7 +44,7 @@ export default function Navbar() {
 
         {/* Mobile Icon */}
         <div
-          className="md:hidden text-2xl cursor-pointer"
+          className="md:hidden text-2xl cursor-pointer text-white"
           onClick={() => setMenuOpen(!menuOpen)}
         >
           ☰
