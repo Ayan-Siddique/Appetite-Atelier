@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0c0b09;
+  --surface: #29261f;
+  --primary: #cda45e;
+  --text: rgba(255,255,255,0.7);
+  --heading: #ffffff;
+  --contrast-color: #0c0b09;
+
+  --font-body: 'Roboto', sans-serif;
+  --font-heading: 'Playfair Display', serif;
+  --font-nav: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.4s ease-in-out;
+}
