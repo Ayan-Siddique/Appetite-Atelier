@@ -1,6 +1,5 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
-import CTA from "../components/CTA";
 import WhyUs from "../components/WhyUs";
 import Menu from "../components/Menu";
 import Testimonials from "../components/Testimonials";

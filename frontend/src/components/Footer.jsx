@@ -14,12 +14,9 @@ export default function Footer() {
           <p>Asansol, West Bengal</p>
 
           <p className="mt-3">
-            <strong>Phone:</strong> +91 XXXXX XXXXX
+            <strong>Phone:</strong> +91 8392045968
           </p>
-          <p>
-            <strong>Email:</strong> thebrickhouse@email.com
-          </p>
-
+            <strong>Email:</strong> 26sidaya@gmail.com
           <p className="mt-2">
             <strong>Open:</strong> 1:00 PM – 11:00 PM
           </p>
